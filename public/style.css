@@ -1,0 +1,40 @@
+.navLink{
+    color: white;
+}
+
+.list{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 20px;
+    margin-top: 50px; 
+}
+.card{
+    width: 20rem;
+    height: max-content;
+    min-height: 35vh;
+    box-shadow: 0 0 10px gray;
+    margin-bottom: 80px;
+}
+
+.card-img-top{
+min-height: 50%;
+}
+
+
+.badge{
+    padding: 3%;
+    border: unset;
+    box-shadow: 0 3px 3px lightsteelblue;
+}
+
+p{
+    margin-top: 20px;
+}
+
+.hide{
+    display: none;
+    transition: all 1s ease-out;
+}
+
